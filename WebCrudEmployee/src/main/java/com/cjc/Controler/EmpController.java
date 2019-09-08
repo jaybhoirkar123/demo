@@ -24,6 +24,7 @@ public class EmpController {
 	@PostMapping("/add")
 	public String addEmployee(@RequestBody Employee emp)
 	{
+		System.out.println("hiiiiiiiiiiiiiii");
 		sr.addEmployee(emp);
 		return " Indian Army";
 	}
